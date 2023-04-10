@@ -9,13 +9,16 @@ body {
   background-color: #eee;
   margin: 0;
   font-family: Open Sans;
+  padding-bottom: 500px;
 }
 nav {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   height: 80px;
   display: flex;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
 }
