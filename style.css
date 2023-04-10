@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #eee;
   margin: 0;
@@ -9,7 +15,7 @@ nav {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   height: 80px;
   display: flex;
-position: relative;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -32,14 +38,11 @@ nav a:hover {
 }
 
 .active {
-  transition: all 0.2s;
   height: 3px;
   background-color: #774bf1;
   border-radius: 1rem;
   position: absolute;
   left: 0;
-  bottom: 0;
-
   width: 100%;
   bottom: -4px;
 }
